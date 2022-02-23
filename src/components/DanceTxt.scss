@@ -1,0 +1,39 @@
+.txts-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+
+  .txt-container {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+
+    .txt-p {
+      font-weight: bold;
+      text-align: center;
+      line-height: 20px;
+      background-image: url("https://k60.kn3.net/taringa/A/6/F/8/8/8/PepeAragan/C72.gif");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      -webkit-background-clip: text;
+      color: transparent;
+      filter: brightness(10%);
+    }
+
+    &:nth-child(1) {
+      .txt-p {
+        background-image: url("https://pa1.narvii.com/6410/425188e5c3a52424571d2c9e915147300d98c2c2_hq.gif");
+      }
+    }
+
+    &:nth-child(2) {
+      .txt-p {
+        background-image: url("https://c.tenor.com/y3KFJlGXktwAAAAi/the-simpsons-bart-simpson.gif");
+      }
+    }
+  }
+}
